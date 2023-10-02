@@ -1,4 +1,4 @@
-# RPG_RT.iniの編集で何ができる？  
+# RPG_RT.iniの編集で何ができる？ / What can we do with RPG_RT.ini?  
   
  バニラではプロジェクト名を記載できる程度であったが、2003MPにおいてRPG_RP.iniには機能が色々と追加されている。  
 以下、DIS_Legacyのものを参考として簡素な機能解説をする。  
@@ -56,7 +56,7 @@ WinH = 450
 You cannot omit this. Also you have to put this before anything but comment.  
 
 ### ゲームタイトル / GameTitle
-`GameTitle=Doradora Island Saga:Legacy v.1.162BETA3fix1Alpha`
+`GameTitle=Doradora Island Saga:Legacy v.1.162BETA3fix1Alpha`  
 ウィンドウに表示されるゲームタイトルを決める。  
   
 Set game title.
