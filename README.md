@@ -8,10 +8,10 @@
     
 日英両方対応予定  
   
-TPCコマンドについてのメモ -> [Tpc](/Tpc)  
+TPCとコマンドについてのメモ -> [Tpc](/Tpc)  
 Java Script導入についてのメモ -> [Js](/Js)  
 コマンドTick計測や高速化のためのメモ（TPCユーザ向け） -> [Optimization](/Optimization)  
-RPG_RT.iniに記載可能なこと等 -> [Misc](/Misc)  
+RPG_RT.iniに記載可能なこと、雑多なトラブルシューティング等 -> [Misc](/Misc)  
 
 -----------------------------
 
