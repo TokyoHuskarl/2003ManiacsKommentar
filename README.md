@@ -1,4 +1,4 @@
-# Praktiker-Kommentar for 2003 Maniacs Patc
+# Praktiker-Kommentar for 2003 Maniacs Patch
 2003MPについて調べないとわからなそうな事柄色々のメモ書き  
 ある程度2003MPを使ったことがある人向けのため、導入等の基本的事項については記述しない。  
 導入については[こちらの記載](https://wikiwiki.jp/viprpg-dev/2003/%E6%8B%A1%E5%BC%B5%E3%83%91%E3%83%83%E3%83%81)を参照されたし。  
