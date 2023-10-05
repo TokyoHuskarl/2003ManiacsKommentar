@@ -2,10 +2,10 @@
 ほぼ自分用備忘録（このリポジトリ自体がそうだけど）  
   
 ### v[var1 + var2] = var3
-A:
+A: 
 ```
-var1 = var2 + var3
-var3.copy v[var1]
+var4 = var1 + var2
+var3.copy v[var4],1
 ```
 
 B:`v[var1 + var2] = var3`
@@ -25,9 +25,20 @@ B:`var1 += var2 + var3`
 A:
 ```
 var2.mul var3,1
-var1.add var2,1
+var2.copy var1,1
 ```
 
 B:`var1 = var2 * var3`
 - B勝ち。 A -> 417t, B -> 385t
+  
+### var1 += var1 * var2
+A:
+```
+var2.mul var3,1
+var1.add var2,1
+```
+
+B:`var1 += var2 * var3`
+- A勝ち。 A -> 559t, B -> 654t
  
+
