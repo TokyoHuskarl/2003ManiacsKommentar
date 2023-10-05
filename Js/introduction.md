@@ -26,3 +26,16 @@ If you want to know about details of the java script engine runs on your RPG_RT.
   
 ### 何に使えるのか？
   
+
+### これだけは冒頭においておくべき魔法の呪文  
+```js
+var setv = setv || function(){};
+var getv = getv || function(n){return n};
+var sett = sett || function(){};
+var gett = gett || function(t){return `string t[${t}]`};
+var sets = sets || function(){};
+var gets = gets || function(){return true};
+```
+2003MP以外の環境でテストすることを考えてこの処理を噛ませておくとよい。  
+また、糖衣構文としてv[],t[],s[]等の記法が導入されているが、これらの利用は現状ではあまりおすすめできない。  
+
