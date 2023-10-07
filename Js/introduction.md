@@ -36,6 +36,7 @@ var gett = gett || function(t){return `string t[${t}]`};
 var sets = sets || function(){};
 var gets = gets || function(){return true};
 ```
+  
 2003MP以外の環境でテストすることを考えてこの処理を噛ませておくとよい。  
 また、糖衣構文としてv[],t[],s[]等の記法が導入されているが、これらの利用は現状ではあまりおすすめできない。  
-
+  
